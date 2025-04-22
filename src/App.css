@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  letter-spacing: 1px;
+  font-family: "Rajdhani", sans-serif;
+  color: #cccccc;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(100deg, #0A0A0A 10%, #1a1a1a 50%, #0F2F2F 100%);
+}

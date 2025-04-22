@@ -1,0 +1,48 @@
+.about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.aboutDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 5rem;
+}
+.aboutContent h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+}
+.aboutContent p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin-bottom: 1rem;
+}
+.aboutLinks {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.aboutIcon {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 28px;
+    height: 28px;
+}
+.aboutIcon:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.aboutImage img{
+    border-radius: 500px;
+    object-fit: cover;
+    border: 4px solid rgba(44, 44, 44, 0.87);
+}

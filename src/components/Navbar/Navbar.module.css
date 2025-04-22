@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 700px; /* Limita el ancho del navbar */
+    padding: 1rem 2rem;
+    z-index: 50;
+    background-color: #121212;
+    box-shadow: 0 2px 4px rgba(54, 54, 54, 0.8);
+    display: flex;
+    justify-content: center;
+    border-radius: 500px;
+  }
+
+.navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navlinks a {
+    padding: 0.5rem 1rem;
+    border-radius: 500px;
+    text-decoration: none;
+    color: #CCCCCC;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navlinks a:hover {
+    background-color: #333333; /* Fondo más claro al pasar el cursor */
+    color: #FFFFFF; /* Texto más claro */
+}
+
+.navlinks a.active {
+    background-color: #FFFFFF; 
+    color: #0a0a0a; 
+}

@@ -1,0 +1,136 @@
+/* Fondo del modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(6px);
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Contenedor principal */
+.modalContent {
+  background-color: #181818;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+  width: 92%;
+  max-width: 520px;
+  color: #f1f1f1;
+  position: relative;
+  animation: slideIn 0.4s ease-out forwards;
+}
+
+/* Animación del contenido */
+@keyframes slideIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Botón de cierre */
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #fc6161;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid #2c2c2c;
+  border-radius: 10px;
+  background-color: #222;
+  color: #e0e0e0;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #CCCCCC;
+  background-color: #262626;
+  outline: none;
+}
+
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+/* Estilo para mensajes de error */
+.error {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  font-weight: 500;
+}
+
+/* Botón de envío */
+button {
+  background-color: #CCCCCC;
+  color: #111;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  margin-top: 0.5rem;
+}
+button:hover {
+  background-color: #181818;
+  color: #CCCCCC;
+}
+
+/* Mensaje de éxito */
+.success {
+  color: #4ade80;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+  text-align: center;
+}

@@ -1,0 +1,102 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.online {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.indicator {
+  width: 8px;
+  height: 8px;
+  outline: 4px solid #00ff8833;
+  border-radius: 500px;
+  background-color: #00ff88;
+  margin-right: 0.75rem;
+}
+.hero h1 {
+  font-size: 6.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.gradiant {
+  font-weight: 700;
+  background: linear-gradient(90deg, #007bff, #ff0080);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero .subheading {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.heroBtns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  .heroBtn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 0.25rem;
+    padding-left: 1.25rem;
+    border-radius: 500px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #cccccc;
+    background-color: #0a0a0a;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  .heroBtn:hover {
+    background-color: #ffffff;
+    color: #0a0a0a;
+  }
+
+  .heroBtn i {
+    font-size: 1.25rem;
+    padding: 0.625rem;
+    color: #0a0a0a;
+    background-color: #ffffff;
+    border-radius: 500px;
+  }
+
+  .email {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .email i {
+    font-size: 1.25rem;
+  }
+}
+
+.socialLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.socialLinks a:hover {
+    transform: translateY(-4px);
+}

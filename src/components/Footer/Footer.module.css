@@ -1,0 +1,28 @@
+footer {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+.footerLinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footerIcon{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+.copyright {
+    color: #808080;
+    font-size: 0.875rem;
+}
+a:hover {
+    transform: translateY(-4px);
+}
