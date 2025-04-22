@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import styles from "./Form.module.css";
 
 type FormData = {
