@@ -19,8 +19,7 @@ const About = () => {
             Using HTML, CSS, JavaScript, TypeScritp, React, Tailwind
           </p>
           <p>
-            Currently Pursuing My B.Tech In Computer Science, I'm Open To
-            Full-time Roles And Freelance Opportunities. I'm Naturally Curious,
+            I'm Open To Full-time Roles And Freelance Opportunities. I'm Naturally Curious,
             Quietly Confident, And Always Pushing My Limits Every Day To Become
             A Better Developer.
           </p>
